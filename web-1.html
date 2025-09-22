@@ -4,79 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wisata & Kuliner Samarinda</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Wisata & Kuliner Samarinda</h1>
-    <nav>
-      <ul>
-        <li><a href="#wisata">Wisata</a></li>
-        <li><a href="#kuliner">Kuliner</a></li>
-        <li><a href="#tentang">Tentang</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#wisata">Wisata</a></li>
+      <li><a href="#kuliner">Kuliner</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+    </ul>
+  </nav>
 
-  <!-- Bagian utama -->
-  <main>
-    <!-- Hero Section -->
-    <section id="hero">
-      <h2>Selamat Datang di Samarinda</h2>
-      <p>Temukan keindahan wisata alam dan cita rasa kuliner khas Samarinda.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Selamat Datang di Wisata & Kuliner Samarinda</h1>
+  </section>
 
-    <!-- Wisata Section -->
+  <main class="container">
+    <!-- Section Wisata -->
     <section id="wisata">
-      <h2>Wisata Samarinda</h2>
-      <article>
-        <h3>Jembatan Mahakam</h3>
-        <p>Salah satu ikon terkenal Samarinda dengan pemandangan sungai Mahakam.</p>
-      </article>
-      <article>
-        <h3>Kampung Tenun Samarinda</h3>
-        <p>Tempat melihat proses pembuatan kain tenun khas Kalimantan Timur.</p>
-      </article>
+      <h2>Destinasi Wisata</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="img/jembatan-mahakam.jpg" alt="Jembatan Mahakam">
+          <div class="card-content">
+            <h3>Jembatan Mahakam</h3>
+            <p>Ikon kota Samarinda yang megah, cocok untuk menikmati pemandangan sungai Mahakam.</p>
+            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/islamic-center.jpg" alt="Islamic Center Samarinda">
+          <div class="card-content">
+            <h3>Islamic Center Samarinda</h3>
+            <p>Masjid terbesar di Kalimantan Timur dengan arsitektur megah dan menawan.</p>
+            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Kuliner Section -->
+    <!-- Section Kuliner -->
     <section id="kuliner">
-      <h2>Kuliner Khas Samarinda</h2>
-      <article>
-        <h3>Sate Payau</h3>
-        <p>Sate khas yang terbuat dari daging rusa, unik dan lezat.</p>
-      </article>
-      <article>
-        <h3>Nasi Kuning Samarinda</h3>
-        <p>Hidangan khas dengan lauk beragam yang kaya rasa.</p>
-      </article>
+      <h2>Kuliner Khas</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="img/nasi-bekepor.jpg" alt="Nasi Bekepor">
+          <div class="card-content">
+            <h3>Nasi Bekepor</h3>
+            <p>Makanan khas Samarinda yang kaya rempah, biasanya disajikan dengan ikan asin.</p>
+            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/amplang.jpg" alt="Amplang Samarinda">
+          <div class="card-content">
+            <h3>Amplang</h3>
+            <p>Camilan khas berupa kerupuk ikan tenggiri yang gurih dan renyah.</p>
+            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Tentang -->
     <section id="tentang">
       <h2>Tentang Website</h2>
       <p>
-        Website ini dibuat untuk memperkenalkan destinasi wisata dan kuliner khas
-        Samarinda, sehingga masyarakat luas dapat lebih mengenal budaya lokal.
+        Website ini dibuat untuk memperkenalkan keindahan wisata dan kelezatan kuliner khas Samarinda.
+        Dengan tampilan sederhana, diharapkan pengunjung dapat lebih mengenal budaya lokal.
       </p>
-    </section>
-
-    <!-- Kontak -->
-    <section id="kontak">
-      <h2>Kontak</h2>
-      <p>Email: info@wisatakuliner-samarinda.com</p>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Wisata & Kuliner Samarinda</p>
-    <p>Referensi desain: 
-      <a href="https://www.indonesia.travel/id/id" target="_blank">
-        indonesia.travel
-      </a>
-    </p>
+    <p>&copy; 2025 Wisata & Kuliner Samarinda | Dibuat untuk Post Test</p>
+    <p>Referensi desain: <a href="https://www.youtube.com/watch?v=7zWsw3yBxtw" target="_blank">Belajar CSS Responsive</a></p>
   </footer>
 </body>
 </html>
